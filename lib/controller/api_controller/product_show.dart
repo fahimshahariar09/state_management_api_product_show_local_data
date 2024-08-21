@@ -23,7 +23,7 @@ class ProductShowService{
     }catch (e){
       log("error :$e");
     }
-    Get.snackbar("message", "no data");
+    Get.snackbar("message", "Product Not Found");
     return [];
   }
 }
